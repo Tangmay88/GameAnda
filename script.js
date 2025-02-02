@@ -10,7 +10,9 @@ class AudioController {
         this.bgMusic.loop = true;
     }
     startMusic() {
+        this.gameOverSound.pause();
         this.bgMusic.play();
+        
     }
     stopMusic() {
         this.bgMusic.pause();
@@ -30,6 +32,7 @@ class AudioController {
         this.stopMusic();
         this.gameOverSound.play();
     }
+    
 }
 
 class MixOrMatch {
