@@ -9,18 +9,39 @@
 }
 
 * {
-  box-sizing: border-box;
+  box-sizing: 
+  
+  border-box;
 }
+
+
 
 html {
   min-height: 100vh;
-  cursor: url("https://raw.githubusercontent.com/WebDevSimplified/Mix-Or-Match/master/Assets/Cursors/Ghost.cur"), auto;
+  cursor: url("images/game/fornt/2.cur"), auto;
+
+  /*cursor: url("https://raw.githubusercontent.com/WebDevSimplified/Mix-Or-Match/master/Assets/Cursors/Ghost.cur"), auto;*/
 }
 
 body {
   margin: 0;
-  background: radial-gradient(#496fd3, #09033b);
+  padding: 0;
 }
+
+#bg-video {
+  position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2130px;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/*body {
+  margin: 0;
+  background: radial-gradient(#496fd3, #09033b);
+}*/
 
 .page-title {
   color: #7edde7;
@@ -58,7 +79,8 @@ body {
 }
 
 .card-game:hover {
-  cursor: url("https://raw.githubusercontent.com/WebDevSimplified/Mix-Or-Match/master/Assets/Cursors/GhostHover.cur"), auto;
+  cursor: url("images/game/fornt/2.cur") , auto;
+  /*cursor: url("https://raw.githubusercontent.com/WebDevSimplified/Mix-Or-Match/master/Assets/Cursors/GhostHover.cur"), auto;*/
 }
 
 .card-face {
