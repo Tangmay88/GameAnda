@@ -107,7 +107,7 @@ body {
 }
 
 .card-game.matched .card-value {
-  animation: dance 1s linear infinite 500ms;
+  animation: dance 1.5s linear infinite 500ms;
 }
 
 .overlay-text {
@@ -197,7 +197,7 @@ body {
 }
 
 .card-value {
-  width: 100%;
+  width: 110%;
   height: auto;
   transition: transform 100ms ease-in-out;
   transform: scale(.9);
