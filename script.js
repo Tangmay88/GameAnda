@@ -136,7 +136,7 @@ class MixOrMatch {
             card1.classList.remove('visible');
             card2.classList.remove('visible');
             this.busy = false;
-        }, 1200);
+        }, 1000);
     }
     shuffleCards(cardsArray) {
         for (let i = cardsArray.length - 1; i > 0; i--) {
@@ -171,7 +171,7 @@ function ready() {
         return;
     }
 
-    let game = new MixOrMatch(120, cards);
+    let game = new MixOrMatch(100, cards);
     let isPaused = false;
 
     overlays.forEach(overlay => {

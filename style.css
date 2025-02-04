@@ -204,6 +204,7 @@ body {
   display: block;
   position: relative; /* ทำให้แน่ใจว่าภาพนี้อยู่เป็นพื้นหลัง */
   z-index: 1; /* กำหนดให้อยู่ข้างล่าง */
+  border-radius: 10px;
 }
 
 .card-front:hover .card-value {
